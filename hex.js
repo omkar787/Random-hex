@@ -10,7 +10,6 @@ function clickFunc(){
     let hexCode = getRandomHex()
     document.body.style.backgroundColor = hexCode
     colorDisplay.textContent = hexCode
-    console.log(hexCode)
 }
 
 function getRandomHex(){
